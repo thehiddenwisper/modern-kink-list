@@ -1,0 +1,9 @@
+npx create-react-app kink-dictionary
+cd kink-dictionary
+yarn add @material-ui/core
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+yarn add @material-ui/icons
+yarn add react-router
+yarn add react-router-dom
+yarn add node-sass

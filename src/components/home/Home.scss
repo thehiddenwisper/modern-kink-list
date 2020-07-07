@@ -1,0 +1,13 @@
+#home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    #info {
+        margin: auto;
+        text-align: center;
+        #title {
+            width: 100%;
+        }
+    }
+}
