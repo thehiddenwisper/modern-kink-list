@@ -16,7 +16,7 @@ export default class KinkListNew extends Component {
 						<input type="password"></input>
 						</div>
 
-						<a href="/kinklist/xyzwwwsy">Submit</a>
+						<a href="/kinklist/edit/xyzwwwsy">Submit</a>
 					</div>
 				</div>
 			</React.Fragment>

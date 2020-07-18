@@ -8,7 +8,7 @@ export default class Home extends Component {
 				<div id="home">
 					<div id="info">
 						<div id="title">The Modern Online Kink Test</div>
-						<div id="start-button"><a href="/new">Start</a></div>
+						<div id="start-button"><a href="/kinklist/new">Start</a></div>
 					</div>
 				</div>
 			</React.Fragment>

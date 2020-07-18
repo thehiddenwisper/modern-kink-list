@@ -1,0 +1,93 @@
+@import "./../Theme.scss";
+#kinklistview {
+    #floating-nav {
+        position: sticky;
+        top: 0;
+        padding-bottom: 10px;
+        padding-top: 5px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        width: 100vw;
+        background-color: white;
+    }
+    #overview {
+        margin: auto;
+        width: 90%;
+        display: flex;
+        justify-items: space-evenly;
+        flex-wrap: wrap;
+        column-gap: 10px;
+        row-gap: 15px;
+        // flex: 1 1 0px;
+        // grid-template-columns: 1fr 1fr 1fr;
+        .category-div {
+            flex-grow: 1;
+            // margin: auto;
+            padding-left: 5px;
+            padding-right: 5px;
+            // width: 30vw;
+            // height: 20vh;
+            border-style: solid;
+             :hover {
+                border-color: yellow;
+            }
+            .title {
+                font-weight: 1000;
+                text-align: center;
+                margin-bottom: 10px;
+                border-bottom: solid;
+                border-bottom-width: thin;
+            }
+            .description {
+                text-align: center;
+                padding-bottom: 10px;
+                margin-bottom: 10px;
+                border-bottom: solid;
+                border-bottom-width: thin;
+            }
+            // .button {
+            // }
+        }
+    }
+    #categories {
+        width: 90%;
+        margin: auto;
+        #kink-list {
+            display: flex;
+            justify-items: space-evenly;
+            flex-wrap: wrap;
+            column-gap: 10px;
+            row-gap: 15px;
+            .kink {
+                flex-grow: 1;
+                // margin: auto;
+                padding-left: 5px;
+                padding-right: 5px;
+                // width: 30vw;
+                // height: 20vh;
+                border-style: solid;
+                text-align: center;
+                .kink-name {
+                    font-weight: bold;
+                    border-bottom: thin;
+                }
+                .kink-option {
+                    padding-top: 5px;
+                    padding-bottom: 5px;
+                    margin-top: 5px;
+                    margin-bottom: 5px;
+                    border-style: solid;
+                    user-select: none;
+                }
+                .highlight {
+                    border-color: green;
+                }
+            }
+        }
+    }
+}
+
+.yellow {
+    color: yellow;
+}
