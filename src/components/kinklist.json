@@ -1,89 +1,76 @@
 {
-    "version": "1.0.0",
-    "options": [{
-        "name": "No Opinion",
-        "color": "white"
-    }, {
-        "name": "Never",
-        "color": "red"
-    }, {
-        "name": "Maybe",
-        "color": "yellow"
-    }, {
-        "name": "Favorite",
-        "color": "green"
-    }, {
-        "name": "Willing To Try",
-        "color": "pink"
-    }],
     "categories": [{
-            "name": "General",
             "description": "General questions about kinks and kink related activities",
-            "scope": ["Giving(To Your Partner)", "Recieving(Partner does to you)"],
             "kinks": [{
-                    "name": "Affection",
-                    "alt-names": ["Romance"]
+                    "alt-names": [
+                        "Cunnilingus",
+                        "Fallatio"
+                    ],
+                    "description": "Putting your mouth on your parthers junk and giving them pleasure",
+                    "name": "Oral Sex"
                 },
                 {
-                    "name": "Kissing"
+                    "alt-names": [
+                        "Nipple Play"
+                    ],
+                    "name": "Having Your Nipples Played With"
                 },
                 {
-                    "name": "Handjob/Fingering"
+                    "examples": [
+                        "Mouth and Ass",
+                        "Pussy and Ass",
+                        "Pussy and Mouth"
+                    ],
+                    "name": "Double Penetration"
                 },
                 {
-                    "name": "Oral",
-                    "alt-names": ["Cunnilingus", "Fallatio"]
+                    "examples": [
+                        "Mouth, Ass, and Pussy"
+                    ],
+                    "name": "Triple Penetration"
                 },
                 {
                     "name": "Deep Throating",
                     "notes": "Can be of a real penis or a dildo"
                 },
                 {
-                    "name": "Swallowing Semen/Grool"
-                },
-                {
                     "name": "Face Sitting"
                 },
                 {
-                    "name": "Verbal/Physical Teasing(Non Sexual)"
-                },
-                {
-                    "name": "Verbal/Physical Teasing(Sexual)"
-                },
-                {
-                    "name": "Normal Sex",
-                    "alt-names": ["Penis In Vagina"]
-                },
-                {
-                    "name": "Having Your Nipples Played With",
-                    "alt-names": ["Nipple Play"]
-                },
-                {
-                    "name": "Biting"
+                    "name": "Handjob/Fingering"
                 },
                 {
                     "name": "Hickies"
                 },
                 {
-                    "name": "Wressing",
-                    "alt-names": ["Rough Housing"],
-                    "examples": ["Someone trying to hold you down/pin you in place", "Somone trying to hold you down and tickle you"]
+                    "name": "Kissing"
                 },
                 {
-                    "name": "Double Penetration",
-                    "examples": ["Mouth and Ass", "Pussy and Mouth", "Pussy and Ass"]
-                },
-                {
-                    "name": "Triple Penetration",
-                    "examples": ["Mouth, Ass, and Pussy"]
+                    "name": "Verbal/Physical Teasing"
                 }
+            ],
+            "name": "General",
+            "scope": [
+                "Giving(You To Your Partner)",
+                "Recieving(Partner does to you)"
             ]
-        }, {
-            "name": "Clothing",
-            "description": "Questions about the types of clothing you like to be in or that you like to see on other people",
-            "scope": ["On You", "On Your Partner"],
+        },
+        {
+            "description": "Questions about the types of clothing you like to be in or that you like to see on your partners",
             "kinks": [{
                     "name": "Clothed Sex"
+                },
+                {
+                    "name": "Cross Dressing"
+                },
+                {
+                    "name": "Heels"
+                },
+                {
+                    "name": "Latex"
+                },
+                {
+                    "name": "Leather"
                 },
                 {
                     "name": "Lingerie"
@@ -92,117 +79,148 @@
                     "name": "Stockings"
                 },
                 {
-                    "name": "Heels"
-                },
-                {
-                    "name": "Leather"
-                },
-                {
-                    "name": "Latex"
-                },
-                {
                     "name": "Uniform / Costume"
-                },
-                {
-                    "name": "Cross Dressing"
-                }
-            ]
-
-        },
-        {
-            "name": "Groupings",
-            "scope": ["General"],
-            "kinks": [{
-                    "name": "You and 1 male"
-                },
-                {
-                    "name": "You and 1 female"
-                },
-                {
-                    "name": "You and 1 female to male transexual"
-                },
-                {
-                    "name": "You and 1 male to female transsexual"
-                },
-                {
-                    "name": "You, 1 female, and 1 male"
-                },
-                {
-                    "name": "You and 2 males"
-                },
-                {
-                    "name": "You and 2 females"
                 }
             ],
-            "notes": "This currently isnt very inclusive send reccomendedations on how to improve to thehiddenwisper@gmail.com"
-        },
-        {
-            "name": "Anal Play",
-            "kinks": [{
-                    "name": "Anal Toys",
-                    "examples": ["Butt Plugs", "Dildos"]
-                },
-                {
-                    "name": "Rimming",
-                    "alt-names": ["Anilingus"]
-                },
-                {
-                    "name": "Chastity"
-                }
+            "name": "Clothing",
+            "scope": [
+                "On You",
+                "On Your Partner"
             ]
         },
         {
-            "name": "Orgasm Control",
-            "scope": ["On You", "On Your Partner"],
             "kinks": [{
+                    "alt-names": [
+                        "Anilingus"
+                    ],
+                    "name": "Rimming"
+                },
+                {
+                    "examples": [
+                        "Butt Plugs",
+                        "Dildos"
+                    ],
+                    "name": "Anal Toys"
+                },
+                {
+                    "name": "Anal Fisting"
+                },
+                {
+                    "name": "Anal Sex"
+                },
+                {
+                    "name": "Fingering"
+                }
+            ],
+            "name": "Anal Play"
+        },
+        {
+            "kinks": [{
+                    "alt-names": [
+                        "Feces",
+                        "Poop"
+                    ],
+                    "name": "Lactation"
+                },
+                {
+                    "alt-names": [
+                        "Feces",
+                        "Poop"
+                    ],
+                    "name": "Scat"
+                },
+                {
+                    "name": "Spit"
+                },
+                {
+                    "alt-names": [
+                        "Piss"
+                    ],
+                    "name": "Watersports"
+                },
+                {
+                    "alt-names": [
+                        "Semen"
+                    ],
+                    "name": "Cum"
+                },
+                {
+                    "name": "Blood"
+                }
+            ],
+            "name": "Fluids",
+            "scope": [
+                "On/From You",
+                "On/From Your Partner"
+            ],
+            "url": "fluids"
+        },
+        {
+            "kinks": [{
+                    "name": "Chastity"
+                },
+                {
                     "name": "Edging"
                 },
                 {
-                    "name": "Ruined Orgasms"
-                },
-                {
-                    "name": "Chastity"
-                }
-            ]
-        },
-        {
-            "name": "Domination/Submission",
-            "scope": ["As the Dominant", "As the Submissive"],
-            "kinks": [{
                     "name": "Mastrubation Instructions"
                 },
                 {
                     "name": "Ruined Orgasms"
-                },
-                {
-                    "name": "Chastity"
                 }
+            ],
+            "name": "Orgasm Control",
+            "scope": [
+                "On You",
+                "On Your Partner"
             ]
         },
         {
-            "name": "Fluids",
-            "scope": ["On/From You", "On/From Your Partner"],
-            "url": "fluids",
             "kinks": [{
-                    "name": "Blood"
+                    "alt-names": [
+                        "Rough Housing"
+                    ],
+                    "examples": [
+                        "Someone trying to hold you down/pin you in place",
+                        "Somone trying to hold you down and tickle you"
+                    ],
+                    "name": "Wrestling"
                 },
                 {
-                    "name": "Watersports",
-                    "alt-names": ["Piss"]
-                },
-                {
-                    "name": "Scat",
-                    "alt-names": ["Feces", "Poop"]
-                },
-                {
-                    "name": "Lactation",
-                    "alt-names": ["Feces", "Poop"]
-                },
-                {
-                    "name": "Cum",
-                    "alt-names": ["Semen"]
+                    "name": ""
                 }
+            ],
+            "name": "Domination and Submission",
+            "scope": [
+                "As the Dominant",
+                "As the Submissive"
             ]
         }
-    ]
+    ],
+    "options": [{
+            "color": "green",
+            "name": "Favorite"
+        },
+        {
+            "color": "grey",
+            "name": "Not Relevant"
+        },
+        {
+            "color": "pink",
+            "name": "Willing To Try"
+        },
+        {
+            "color": "red",
+            "name": "Never"
+        },
+        {
+            "color": "white",
+            "name": "No Opinion"
+        },
+        {
+            "color": "yellow",
+            "name": "Maybe"
+        }
+    ],
+    "version": "1.0.0"
 }
